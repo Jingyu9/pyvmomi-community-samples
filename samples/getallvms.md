@@ -17,7 +17,7 @@
 """
 Python program for listing the vms on an ESX / vCenter host
 """
-
+```
 import atexit
 
 from pyVim import connect
@@ -95,3 +95,4 @@ def main():
 # Start program
 if __name__ == "__main__":
     main()
+```
